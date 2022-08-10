@@ -1610,10 +1610,10 @@ Garages = {
     ['helipad'] = {
         ['Zone'] = {
             ['Shape'] = { --polygon that surrounds the parking area
-                vector2(-757.8896484375, -1469.876953125),
-                vector2(-744.54223632812, -1480.4110107422),
-                vector2(-733.07989501954, -1467.4460449218),
-                vector2(-746.4605102539, -1456.0607910156)
+            vector2(443.95425415039, -986.96105957031),
+            vector2(443.57757568359, -975.68347167969),
+            vector2(454.68765258789, -975.73150634766),
+            vector2(455.05307006836, -986.58837890625),
             },
             ['minZ'] = 4.0,  -- min height of the parking zone
             ['maxZ'] = 8.0,  -- max height of the parking zone
@@ -1622,16 +1622,16 @@ Garages = {
         type = 'public',
         vehicleCategories = {'helicopter'},
         drawText = 'Helipad',
-        showBlip = true,
+        showBlip = false,
         blipName = "Helipad",
         blipNumber = 64,
         blipColor = 50,
-        blipcoords = vector3(-745.61, -1468.57, 4.37),
+        blipcoords = vector3(449.11, -981.09, 43.69),
         ["ParkingSpots"] = {
-            vector4(-745.53, -1468.68, 5.0, 321.19)
+            vector4(449.11, -981.09, 43.69, 222.47)
         },
         ParkingDistance = 10.0,
-        debug = false
+        debug = true
     },
     ['shoreheli'] = {
         ['Zone'] = {
