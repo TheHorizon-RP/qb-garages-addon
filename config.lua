@@ -1542,7 +1542,7 @@ Garages = {
         },
         debug = false
     },
-    ['pdfront'] = {
+  --[[  ['pdfront'] = {
         ['Zone'] = {
             ['Shape'] = { --polygon that surrounds the parking area
             vector2(405.13595581054, -998.57788085938),
@@ -1567,16 +1567,14 @@ Garages = {
             vector4(407.68, -979.62, 28.94, 51.69),
         },
         debug = false
-    },
+    }, ]]--
     ['pdgarage'] = {
         ['Zone'] = {
             ['Shape'] = { --polygon that surrounds the parking area
-               	vector2(448.33670043945, -998.80895996094),
-                vector2(423.15826416016, -998.98077392578),
-                vector2(423.48205566406, -973.94946289063),
-                vector2(428.74041748047, -974.35272216797),
-                vector2(428.564453125, -984.02642822266),
-                vector2(448.21347045898, -983.94213867188),
+            vector2(463.69793701172, -999.49462890625),
+            vector2(463.70263671875, -973.04357910156),
+            vector2(423.14096069336, -973.05541992188),
+            vector2(423.15789794922, -1000.2817993164),
             },
             ['minZ'] = 24.0,  -- min height of the parking zone
             ['maxZ'] = 27.0,  -- max height of the parking zone
